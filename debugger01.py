@@ -1,3 +1,4 @@
+## This is debugger to know if Serial monitor really works and if we really can recevie data from there. 
 import serial
 
 # Define the serial port and baud rate
@@ -24,3 +25,6 @@ finally:
     if 'ser' in locals() and ser.is_open:
         ser.close()
         print("Serial connection closed.")
+
+
+
